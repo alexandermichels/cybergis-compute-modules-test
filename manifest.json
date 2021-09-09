@@ -1,0 +1,6 @@
+ 
+{
+    "name": "modules test",
+    "container": "cjw-eb",
+    "execution_stage": "bash test.sh"
+}
