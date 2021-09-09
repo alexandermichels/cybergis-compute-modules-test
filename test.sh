@@ -8,5 +8,7 @@ module load cybergisx
 module list
 echo $PATH
 echo $LD_LIBRARY_PATH
+conda init bash
+source ~/.bashrc
 conda activate $CIGI_EB_ROOT/conda/cybergisx-py3-2021-08-13
 python -c "import networkx"
